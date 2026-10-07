@@ -1,0 +1,1552 @@
+{
+  "admins": [
+    {
+      "admin_id": "110124149040",
+      "name": "College User (110124149040)",
+      "email": "110124149040@aalimec.ac.in",
+      "phone": "+91 98402 11040",
+      "role": "ADMIN",
+      "account_status": "ACTIVE",
+      "qr_identity": "QR-ADM-110124149040",
+      "permissions": [
+        "ALL",
+        "FLEET_CONTROL",
+        "USER_MANAGEMENT",
+        "COMPLAINTS",
+        "DATA_IMPORT"
+      ]
+    },
+    {
+      "admin_id": "110124149012",
+      "name": "Dharshana K M",
+      "email": "110124149012@aalimec.ac.in",
+      "phone": "+91 98402 11001",
+      "role": "ADMIN",
+      "account_status": "ACTIVE",
+      "qr_identity": "QR-ADM-110124149012",
+      "permissions": [
+        "ALL",
+        "FLEET_CONTROL",
+        "USER_MANAGEMENT",
+        "COMPLAINTS",
+        "DATA_IMPORT"
+      ]
+    },
+    {
+      "admin_id": "ADM-MANJUNATHAN",
+      "name": "Manjunathan",
+      "email": "manjunathan@campus.edu",
+      "phone": "+91 97153 18223",
+      "role": "ADMIN",
+      "account_status": "ACTIVE",
+      "qr_identity": "QR-ADM-MANJUNATHAN",
+      "permissions": [
+        "FLEET_CONTROL",
+        "STUDENT_MONITORING",
+        "ATTENDANCE"
+      ]
+    },
+    {
+      "admin_id": "ADM-BAVAMAITHEEN",
+      "name": "Bavamaitheen",
+      "email": "bavamaitheen@gmail.com",
+      "phone": null,
+      "role": "ADMIN",
+      "account_status": "ACTIVE",
+      "qr_identity": "QR-ADM-BAVAMAITHEEN",
+      "permissions": [
+        "DISPATCH",
+        "BREAKDOWN_RESPONSE",
+        "ATTENDANCE"
+      ]
+    },
+    {
+      "admin_id": "ADM-VANITHASRI",
+      "name": "Vanithasri K",
+      "email": "vanithasrik@aalimec.ac.in",
+      "phone": null,
+      "role": "ADMIN",
+      "account_status": "ACTIVE",
+      "qr_identity": "QR-ADM-VANITHASRI",
+      "permissions": [
+        "STUDENT_MONITORING",
+        "COMPLAINTS"
+      ]
+    },
+    {
+      "admin_id": "ADM-JAYAPRABHA",
+      "name": "Jayaprabha T",
+      "email": "jayaprabhat@aalimec.ac.in",
+      "phone": null,
+      "role": "ADMIN",
+      "account_status": "ACTIVE",
+      "qr_identity": "QR-ADM-JAYAPRABHA",
+      "permissions": [
+        "ALL"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "student_id": "110124149040",
+      "full_name": "Student 110124149040",
+      "email": "110124149040@aalimec.ac.in",
+      "phone": "9840211040",
+      "department": "Computer Science and Engineering",
+      "year": "3rd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "boarding_point": "avadi",
+      "boarding_lat": 13.1147,
+      "boarding_lng": 80.1018,
+      "qr_identity": "QR-STU-110124149040",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-0367",
+      "full_name": "Shireen",
+      "email": "110125149049@aalimec.ac.in",
+      "phone": "9363273168",
+      "department": "Computer Science and Engineering",
+      "year": "2nd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "boarding_point": "avadi",
+      "boarding_lat": 13.13404616855677,
+      "boarding_lng": 80.10249959498628,
+      "qr_identity": "QR-STU-STU-0367",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-6134",
+      "full_name": "Alisha",
+      "email": "110125149009@aalimec.ac.in",
+      "phone": "9884136993",
+      "department": "Computer Science and Engineering",
+      "year": "2nd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "boarding_point": "avadi",
+      "boarding_lat": null,
+      "boarding_lng": null,
+      "qr_identity": "QR-STU-STU-6134",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-2476",
+      "full_name": "M. Yuvarani",
+      "email": "110125149059@aalimec.ac.in",
+      "phone": "9344092339",
+      "department": "Computer Science and Engineering",
+      "year": "2nd Year",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "route_id": "R-02",
+      "boarding_point": "avadi",
+      "boarding_lat": null,
+      "boarding_lng": null,
+      "qr_identity": "QR-STU-STU-2476",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-7392",
+      "full_name": "Sana Fathima",
+      "email": "110124149039@aalimec.ac.in",
+      "phone": "9962546003",
+      "department": "Computer Science and Engineering",
+      "year": "3rd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN 22 CZ 4763",
+      "route_id": "R-01",
+      "boarding_point": "avadi",
+      "boarding_lat": null,
+      "boarding_lng": null,
+      "qr_identity": "QR-STU-STU-7392",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-100",
+      "full_name": "Student User",
+      "email": "student@gmail.com",
+      "phone": "+91 9876543210",
+      "department": "Computer Science and Engineering",
+      "year": "3rd Year",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "boarding_point": "avadi",
+      "boarding_lat": 13.1147,
+      "boarding_lng": 80.1018,
+      "qr_identity": "QR-STU-100-STUDENT",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-201",
+      "full_name": "Faiza",
+      "email": "faizaaaa719@gmail.com",
+      "phone": "9756441783",
+      "department": "Engineering",
+      "year": "2nd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "boarding_point": "avadi",
+      "boarding_lat": 13.1147,
+      "boarding_lng": 80.1018,
+      "qr_identity": "QR-STU-201-FAIZA",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-202",
+      "full_name": "Faiza Tabasum. S",
+      "email": "faizatabusum15@gmail.com",
+      "phone": "9080422448",
+      "department": "Engineering",
+      "year": "2nd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "boarding_point": "AJEYA STADIUM",
+      "boarding_lat": 13.134139,
+      "boarding_lng": 80.102028,
+      "qr_identity": "QR-STU-202-FAIZATABASUM",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-203",
+      "full_name": "A.faaliha barveen",
+      "email": "faaliha8509@gmail.com",
+      "phone": "9442944820",
+      "department": "Engineering",
+      "year": "3rd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "boarding_point": "AVADI HVF MAIN GATE",
+      "boarding_lat": 13.140694,
+      "boarding_lng": 80.092417,
+      "qr_identity": "QR-STU-203-FAALIHA",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-204",
+      "full_name": "S.Shanaz",
+      "email": "shanaz.txt@gmail.com",
+      "phone": "8988007861",
+      "department": "Engineering",
+      "year": "3rd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "boarding_point": "CRP CROSS ROAD",
+      "boarding_lat": 13.149167,
+      "boarding_lng": 80.087972,
+      "qr_identity": "QR-STU-204-SHANAZ",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-205",
+      "full_name": "Mariyam nadhira",
+      "email": "mariyamnadhira8@gmail.com",
+      "phone": "7010130015",
+      "department": "Engineering",
+      "year": "1st Year",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "boarding_point": "AVADI",
+      "boarding_lat": 13.127556,
+      "boarding_lng": 80.114056,
+      "qr_identity": "QR-STU-205-MARIYAM",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-206",
+      "full_name": "ashifa. J",
+      "email": "jafarashifa90@gmail.com",
+      "phone": "8056246645",
+      "department": "Engineering",
+      "year": "4th Year",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "boarding_point": "AVADI AIRFORCE MAIN GATE",
+      "boarding_lat": 13.146944,
+      "boarding_lng": 80.073278,
+      "qr_identity": "QR-STU-206-ASHIFA",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-207",
+      "full_name": "Madhani K",
+      "email": "madhanifathima1986@gmail.com",
+      "phone": "9092949721",
+      "department": "Engineering",
+      "year": "2nd Year",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "boarding_point": "AVADI AIRFORCE MAIN GATE",
+      "boarding_lat": 13.146944,
+      "boarding_lng": 80.073278,
+      "qr_identity": "QR-STU-207-MADHANI",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-208",
+      "full_name": "Ashmi MA",
+      "email": "haiyathumashmi@gmail.com",
+      "phone": "9962381772",
+      "department": "Engineering",
+      "year": "3rd Year",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "boarding_point": "AVADI HVF MAIN GATE",
+      "boarding_lat": 13.140694,
+      "boarding_lng": 80.092417,
+      "qr_identity": "QR-STU-208-ASHMI",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-209",
+      "full_name": "Aqsaa",
+      "email": null,
+      "phone": "9626301497",
+      "department": "Engineering",
+      "year": "1st Year",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "boarding_point": "AJEYA STADIUM",
+      "boarding_lat": 13.134139,
+      "boarding_lng": 80.102028,
+      "qr_identity": "QR-STU-209-AQSAA",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-210",
+      "full_name": "Nethraa TN",
+      "email": "nethraatn.18@gmail.com",
+      "phone": "9345339036",
+      "department": "Engineering",
+      "year": "4th Year",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "boarding_point": "CRP CROSS ROAD",
+      "boarding_lat": 13.149167,
+      "boarding_lng": 80.087972,
+      "qr_identity": "QR-STU-210-NETHRAA",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    },
+    {
+      "student_id": "STU-211",
+      "full_name": "Ayisha Sulthana J",
+      "email": "ayshasulthana000@gmail.com",
+      "phone": "9444108534",
+      "department": "Engineering",
+      "year": "3rd Year",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "boarding_point": "AVADI HVF MAIN GATE",
+      "boarding_lat": 13.140694,
+      "boarding_lng": 80.092417,
+      "qr_identity": "QR-STU-211-AYISHA",
+      "account_status": "ACTIVE",
+      "role": "STUDENT"
+    }
+  ],
+  "drivers": [
+    {
+      "driver_id": "DRV-01",
+      "driver_name": "SRINIVASAN R",
+      "phone": "9840986527",
+      "email": "r1@gmail.com",
+      "assigned_bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "qr_identity": "QR-DRV-01-MURUGAN",
+      "account_status": "ACTIVE",
+      "role": "DRIVER"
+    },
+    {
+      "driver_id": "DRV-02",
+      "driver_name": "M. Selvam",
+      "phone": "+91 98401 23452",
+      "email": "driver.selvam@campus.edu",
+      "assigned_bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "qr_identity": "QR-DRV-02-SELVAM",
+      "account_status": "ACTIVE",
+      "role": "DRIVER"
+    },
+    {
+      "driver_id": "DRV-03",
+      "driver_name": "S. Rajendran",
+      "phone": "+91 98401 23453",
+      "email": "driver.rajendran@campus.edu",
+      "assigned_bus_id": "BUS-03",
+      "bus_number": "TN 22 CZ 4103",
+      "route_id": "R-03",
+      "qr_identity": "QR-DRV-03-RAJENDRAN",
+      "account_status": "ACTIVE",
+      "role": "DRIVER"
+    },
+    {
+      "driver_id": "DRV-04",
+      "driver_name": "P. Arumugam",
+      "phone": "+91 98401 23454",
+      "email": "driver.arumugam@campus.edu",
+      "assigned_bus_id": "BUS-04",
+      "bus_number": "TN 22 CZ 4104",
+      "route_id": "R-04",
+      "qr_identity": "QR-DRV-04-ARUMUGAM",
+      "account_status": "ACTIVE",
+      "role": "DRIVER"
+    },
+    {
+      "driver_id": "DRV-05",
+      "driver_name": "R. Venkatesan",
+      "phone": "+91 98401 23455",
+      "email": "driver.venkatesan@campus.edu",
+      "assigned_bus_id": "BUS-05",
+      "bus_number": "TN 22 CZ 4105",
+      "route_id": "R-05",
+      "qr_identity": "QR-DRV-05-VENKATESAN",
+      "account_status": "ACTIVE",
+      "role": "DRIVER"
+    },
+    {
+      "driver_id": "DRV-06",
+      "driver_name": "G. Kannan",
+      "phone": "+91 98401 23456",
+      "email": "driver.kannan@campus.edu",
+      "assigned_bus_id": "BUS-06",
+      "bus_number": "TN 22 CZ 4106",
+      "route_id": "R-06",
+      "qr_identity": "QR-DRV-06-KANNAN",
+      "account_status": "ACTIVE",
+      "role": "DRIVER"
+    },
+    {
+      "driver_id": "DRV-07",
+      "driver_name": "A. Dhanasekaran",
+      "phone": "+91 98401 23457",
+      "email": "driver.dhanasekaran@campus.edu",
+      "assigned_bus_id": "BUS-07",
+      "bus_number": "TN 22 CZ 4107",
+      "route_id": "R-07",
+      "qr_identity": "QR-DRV-07-DHANASEKARAN",
+      "account_status": "ACTIVE",
+      "role": "DRIVER"
+    }
+  ],
+  "buses": [
+    {
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "route_name": "AVADI",
+      "destination": "College Campus",
+      "assigned_driver_id": "DRV-01",
+      "assigned_driver_name": "SRINIVASAN R",
+      "bus_status": "BREAKDOWN",
+      "location_source": "MOBILE_DRIVER_GPS",
+      "current_lat": 13.147337561323258,
+      "current_lng": 80.05626610722892,
+      "active_trip_id": null,
+      "gps_accuracy": 124,
+      "last_gps_update": "2026-10-07T09:17:25.933Z"
+    },
+    {
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "route_name": "Avadi to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "assigned_driver_id": "DRV-02",
+      "assigned_driver_name": "M. Selvam",
+      "bus_status": "ON_TRIP",
+      "location_source": "MOBILE_DRIVER_GPS",
+      "current_lat": null,
+      "current_lng": null,
+      "active_trip_id": "TRIP-044836"
+    },
+    {
+      "bus_id": "BUS-03",
+      "bus_number": "TN 22 CZ 4103",
+      "route_id": "R-03",
+      "route_name": "Chengalpattu to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "assigned_driver_id": "DRV-03",
+      "assigned_driver_name": "S. Rajendran",
+      "bus_status": "IDLE",
+      "location_source": "MOBILE_DRIVER_GPS",
+      "current_lat": null,
+      "current_lng": null
+    },
+    {
+      "bus_id": "BUS-04",
+      "bus_number": "TN 22 CZ 4104",
+      "route_id": "R-04",
+      "route_name": "Thiruvallur to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "assigned_driver_id": "DRV-04",
+      "assigned_driver_name": "P. Arumugam",
+      "bus_status": "IDLE",
+      "location_source": "MOBILE_DRIVER_GPS",
+      "current_lat": null,
+      "current_lng": null
+    },
+    {
+      "bus_id": "BUS-05",
+      "bus_number": "TN 22 CZ 4105",
+      "route_id": "R-05",
+      "route_name": "Kanchipuram to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "assigned_driver_id": "DRV-05",
+      "assigned_driver_name": "R. Venkatesan",
+      "bus_status": "IDLE",
+      "location_source": "MOBILE_DRIVER_GPS",
+      "current_lat": null,
+      "current_lng": null
+    },
+    {
+      "bus_id": "BUS-06",
+      "bus_number": "TN 22 CZ 4106",
+      "route_id": "R-06",
+      "route_name": "Poonamallee to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "assigned_driver_id": "DRV-06",
+      "assigned_driver_name": "G. Kannan",
+      "bus_status": "IDLE",
+      "location_source": "MOBILE_DRIVER_GPS",
+      "current_lat": null,
+      "current_lng": null
+    },
+    {
+      "bus_id": "BUS-07",
+      "bus_number": "TN 22 CZ 4107",
+      "route_id": "R-07",
+      "route_name": "Redhills to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "assigned_driver_id": "DRV-07",
+      "assigned_driver_name": "A. Dhanasekaran",
+      "bus_status": "IDLE",
+      "location_source": "MOBILE_DRIVER_GPS",
+      "current_lat": null,
+      "current_lng": null
+    },
+    {
+      "bus_id": "BUS-08",
+      "bus_number": "TN 22 CZ 4108",
+      "route_id": "R-08",
+      "route_name": "Minjur to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "assigned_driver_id": null,
+      "assigned_driver_name": "To be assigned (After Induction)",
+      "bus_status": "IDLE",
+      "location_source": "MOBILE_DRIVER_GPS",
+      "current_lat": null,
+      "current_lng": null
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "R-01",
+      "route_name": "AVADI to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "driver_name": "SRINIVASAN R",
+      "driver_phone": "9840986527",
+      "boarding_points": [
+        "AVADI",
+        "AJEYA STADIUM",
+        "AVADI HVF MAIN GATE",
+        "CRP CROSS ROAD",
+        "AVADI AIRFORCE MAIN GATE",
+        "CAMPUS"
+      ]
+    },
+    {
+      "route_id": "R-02",
+      "route_name": "Avadi to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "driver_name": "M. Selvam",
+      "driver_phone": "+91 98401 23452",
+      "boarding_points": [
+        "AVADI",
+        "AJEYA STADIUM",
+        "AVADI HVF MAIN GATE",
+        "CRP CROSS ROAD",
+        "AVADI AIRFORCE MAIN GATE",
+        "CAMPUS"
+      ]
+    },
+    {
+      "route_id": "R-03",
+      "route_name": "Chengalpattu to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "driver_name": "S. Rajendran",
+      "driver_phone": "+91 98401 23453",
+      "boarding_points": [
+        "Chengalpattu New Bus Stand",
+        "Singaperumal Koil",
+        "Maraimalai Nagar",
+        "Guduvanchery",
+        "Vandalur"
+      ]
+    },
+    {
+      "route_id": "R-04",
+      "route_name": "Thiruvallur to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "driver_name": "P. Arumugam",
+      "driver_phone": "+91 98401 23454",
+      "boarding_points": [
+        "Thiruvallur Bus Stand",
+        "Sevvaipet Road",
+        "Veppampattu",
+        "Pattabiram"
+      ]
+    },
+    {
+      "route_id": "R-05",
+      "route_name": "Kanchipuram to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "driver_name": "R. Venkatesan",
+      "driver_phone": "+91 98401 23455",
+      "boarding_points": [
+        "Kanchipuram Bus Stand",
+        "Walajabad",
+        "Oragadam Junction",
+        "Sriperumbudur"
+      ]
+    },
+    {
+      "route_id": "R-06",
+      "route_name": "Poonamallee to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "driver_name": "G. Kannan",
+      "driver_phone": "+91 98401 23456",
+      "boarding_points": [
+        "Poonamallee Bypass",
+        "Kumananchavadi",
+        "Porur Toll",
+        "Iyyappanthangal"
+      ]
+    },
+    {
+      "route_id": "R-07",
+      "route_name": "Redhills to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "driver_name": "A. Dhanasekaran",
+      "driver_phone": "+91 98401 23457",
+      "boarding_points": [
+        "Redhills Market",
+        "Puzhal",
+        "Madhavaram Roundana",
+        "Retteri"
+      ]
+    },
+    {
+      "route_id": "R-08",
+      "route_name": "Minjur to Campus",
+      "destination": "Aalim Muhammed Salegh College of Engineering",
+      "driver_name": null,
+      "driver_phone": null,
+      "boarding_points": [
+        "Minjur Station",
+        "Nandiambakkam",
+        "Athipattu",
+        "Ennore"
+      ]
+    }
+  ],
+  "boardingPoints": [
+    {
+      "boarding_point_id": "BP-02-01",
+      "route_id": "R-02",
+      "boarding_point_name": "AVADI",
+      "latitude": 13.127556,
+      "longitude": 80.114056,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-02-02",
+      "route_id": "R-02",
+      "boarding_point_name": "AJEYA STADIUM",
+      "latitude": 13.134139,
+      "longitude": 80.102028,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-02-03",
+      "route_id": "R-02",
+      "boarding_point_name": "AVADI HVF MAIN GATE",
+      "latitude": 13.140694,
+      "longitude": 80.092417,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-02-04",
+      "route_id": "R-02",
+      "boarding_point_name": "CRP CROSS ROAD",
+      "latitude": 13.149167,
+      "longitude": 80.087972,
+      "sequence": 4
+    },
+    {
+      "boarding_point_id": "BP-02-05",
+      "route_id": "R-02",
+      "boarding_point_name": "AVADI AIRFORCE MAIN GATE",
+      "latitude": 13.146944,
+      "longitude": 80.073278,
+      "sequence": 5
+    },
+    {
+      "boarding_point_id": "BP-01-01",
+      "route_id": "R-01",
+      "boarding_point_name": "AVADI",
+      "latitude": 13.127556,
+      "longitude": 80.114056,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-01-02",
+      "route_id": "R-01",
+      "boarding_point_name": "AJEYA STADIUM",
+      "latitude": 13.134139,
+      "longitude": 80.102028,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-01-03",
+      "route_id": "R-01",
+      "boarding_point_name": "AVADI HVF MAIN GATE",
+      "latitude": 13.140694,
+      "longitude": 80.092417,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-01-04",
+      "route_id": "R-01",
+      "boarding_point_name": "CRP CROSS ROAD",
+      "latitude": 13.149167,
+      "longitude": 80.087972,
+      "sequence": 4
+    },
+    {
+      "boarding_point_id": "BP-01-05",
+      "route_id": "R-01",
+      "boarding_point_name": "AVADI AIRFORCE MAIN GATE",
+      "latitude": 13.146944,
+      "longitude": 80.073278,
+      "sequence": 5
+    },
+    {
+      "boarding_point_id": "BP-01-01",
+      "route_id": "R-01",
+      "boarding_point_name": "Tambaram Sanatorium",
+      "latitude": 12.932,
+      "longitude": 80.134,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-01-02",
+      "route_id": "R-01",
+      "boarding_point_name": "Chromepet",
+      "latitude": 12.9516,
+      "longitude": 80.1462,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-01-03",
+      "route_id": "R-01",
+      "boarding_point_name": "Pallavaram",
+      "latitude": 12.9675,
+      "longitude": 80.1491,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-01-04",
+      "route_id": "R-01",
+      "boarding_point_name": "Airport",
+      "latitude": 12.9856,
+      "longitude": 80.1649,
+      "sequence": 4
+    },
+    {
+      "boarding_point_id": "BP-01-05",
+      "route_id": "R-01",
+      "boarding_point_name": "Guindy",
+      "latitude": 13.0067,
+      "longitude": 80.2025,
+      "sequence": 5
+    },
+    {
+      "boarding_point_id": "BP-03-01",
+      "route_id": "R-03",
+      "boarding_point_name": "Chengalpattu New Bus Stand",
+      "latitude": 12.6923,
+      "longitude": 79.9774,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-03-02",
+      "route_id": "R-03",
+      "boarding_point_name": "Singaperumal Koil",
+      "latitude": 12.7667,
+      "longitude": 80.0039,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-03-03",
+      "route_id": "R-03",
+      "boarding_point_name": "Maraimalai Nagar",
+      "latitude": 12.7933,
+      "longitude": 80.0244,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-03-04",
+      "route_id": "R-03",
+      "boarding_point_name": "Guduvanchery",
+      "latitude": 12.8439,
+      "longitude": 80.0617,
+      "sequence": 4
+    },
+    {
+      "boarding_point_id": "BP-03-05",
+      "route_id": "R-03",
+      "boarding_point_name": "Vandalur",
+      "latitude": 12.8913,
+      "longitude": 80.0811,
+      "sequence": 5
+    },
+    {
+      "boarding_point_id": "BP-04-01",
+      "route_id": "R-04",
+      "boarding_point_name": "Thiruvallur Bus Stand",
+      "latitude": 13.1432,
+      "longitude": 79.9079,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-04-02",
+      "route_id": "R-04",
+      "boarding_point_name": "Sevvaipet Road",
+      "latitude": 13.1368,
+      "longitude": 79.9822,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-04-03",
+      "route_id": "R-04",
+      "boarding_point_name": "Veppampattu",
+      "latitude": 13.1256,
+      "longitude": 80.0278,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-04-04",
+      "route_id": "R-04",
+      "boarding_point_name": "Pattabiram",
+      "latitude": 13.1187,
+      "longitude": 80.0612,
+      "sequence": 4
+    },
+    {
+      "boarding_point_id": "BP-05-01",
+      "route_id": "R-05",
+      "boarding_point_name": "Kanchipuram Bus Stand",
+      "latitude": 12.8342,
+      "longitude": 79.7036,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-05-02",
+      "route_id": "R-05",
+      "boarding_point_name": "Walajabad",
+      "latitude": 12.7941,
+      "longitude": 79.8211,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-05-03",
+      "route_id": "R-05",
+      "boarding_point_name": "Oragadam Junction",
+      "latitude": 12.8335,
+      "longitude": 79.9482,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-05-04",
+      "route_id": "R-05",
+      "boarding_point_name": "Sriperumbudur",
+      "latitude": 12.9691,
+      "longitude": 79.9405,
+      "sequence": 4
+    },
+    {
+      "boarding_point_id": "BP-06-01",
+      "route_id": "R-06",
+      "boarding_point_name": "Poonamallee Bypass",
+      "latitude": 13.0489,
+      "longitude": 80.0934,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-06-02",
+      "route_id": "R-06",
+      "boarding_point_name": "Kumananchavadi",
+      "latitude": 13.0463,
+      "longitude": 80.1147,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-06-03",
+      "route_id": "R-06",
+      "boarding_point_name": "Porur Toll",
+      "latitude": 13.0336,
+      "longitude": 80.1581,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-06-04",
+      "route_id": "R-06",
+      "boarding_point_name": "Iyyappanthangal",
+      "latitude": 13.0422,
+      "longitude": 80.1411,
+      "sequence": 4
+    },
+    {
+      "boarding_point_id": "BP-07-01",
+      "route_id": "R-07",
+      "boarding_point_name": "Redhills Market",
+      "latitude": 13.1994,
+      "longitude": 80.1961,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-07-02",
+      "route_id": "R-07",
+      "boarding_point_name": "Puzhal",
+      "latitude": 13.1611,
+      "longitude": 80.1989,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-07-03",
+      "route_id": "R-07",
+      "boarding_point_name": "Madhavaram Roundana",
+      "latitude": 13.1422,
+      "longitude": 80.2217,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-07-04",
+      "route_id": "R-07",
+      "boarding_point_name": "Retteri",
+      "latitude": 13.1267,
+      "longitude": 80.2078,
+      "sequence": 4
+    },
+    {
+      "boarding_point_id": "BP-08-01",
+      "route_id": "R-08",
+      "boarding_point_name": "Minjur Station",
+      "latitude": 13.2789,
+      "longitude": 80.2594,
+      "sequence": 1
+    },
+    {
+      "boarding_point_id": "BP-08-02",
+      "route_id": "R-08",
+      "boarding_point_name": "Nandiambakkam",
+      "latitude": 13.2483,
+      "longitude": 80.2789,
+      "sequence": 2
+    },
+    {
+      "boarding_point_id": "BP-08-03",
+      "route_id": "R-08",
+      "boarding_point_name": "Athipattu",
+      "latitude": 13.2356,
+      "longitude": 80.2989,
+      "sequence": 3
+    },
+    {
+      "boarding_point_id": "BP-08-04",
+      "route_id": "R-08",
+      "boarding_point_name": "Ennore",
+      "latitude": 13.2122,
+      "longitude": 80.3217,
+      "sequence": 4
+    }
+  ],
+  "trips": [
+    {
+      "trip_id": "TRIP-084127",
+      "bus_id": "BUS-01",
+      "bus_number": "TN 22 CZ 4763",
+      "driver_id": "DRV-01",
+      "driver_name": "K. Murugan",
+      "route_id": "R-01",
+      "start_time": "2026-09-25T15:11:24.127Z",
+      "end_time": "2026-09-27T12:23:37.452Z",
+      "status": "COMPLETED",
+      "current_lat": 12.925,
+      "current_lng": 80.1005,
+      "gps_accuracy": 8,
+      "last_gps_update": "2026-09-25T15:11:35.861Z",
+      "dynamic_qr_token": "BUSQR-BUS-01-TRIP-084127-TOZIGA",
+      "dynamic_qr_expires_at": 1790349144127
+    },
+    {
+      "trip_id": "TRIP-188398",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "driver_id": "DRV-02",
+      "driver_name": "M. Selvam",
+      "route_id": "R-02",
+      "start_time": "2026-09-25T15:13:08.398Z",
+      "end_time": "2026-09-27T12:23:37.452Z",
+      "status": "COMPLETED",
+      "current_lat": null,
+      "current_lng": null,
+      "gps_accuracy": null,
+      "last_gps_update": null,
+      "dynamic_qr_token": "BUSQR-BUS-02-TRIP-188398-210D8M",
+      "dynamic_qr_expires_at": 1790349248398
+    },
+    {
+      "trip_id": "TRIP-817452",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "driver_id": "DRV-01",
+      "driver_name": "K. Murugan",
+      "route_id": "R-02",
+      "start_time": "2026-09-27T12:23:37.452Z",
+      "end_time": "2026-09-27T12:25:08.093Z",
+      "status": "COMPLETED",
+      "current_lat": 13.0951536,
+      "current_lng": 80.2282311,
+      "gps_accuracy": 5.50600004196167,
+      "last_gps_update": "2026-09-27T12:25:05.011Z",
+      "dynamic_qr_token": "BUSQR-BUS-02-TRIP-817452-7BKSKG",
+      "dynamic_qr_expires_at": 1790511937789,
+      "previous_dynamic_qr_token": "BUSQR-BUS-02-TRIP-817452-OJSIUS"
+    },
+    {
+      "trip_id": "TRIP-310284",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "driver_id": "DRV-01",
+      "driver_name": "K. Murugan",
+      "route_id": "R-02",
+      "start_time": "2026-10-06T14:01:50.284Z",
+      "end_time": "2026-10-07T08:22:44.678Z",
+      "status": "COMPLETED",
+      "current_lat": null,
+      "current_lng": null,
+      "gps_accuracy": null,
+      "last_gps_update": null,
+      "dynamic_qr_token": "BUSQR-BUS-02-TRIP-310284-VEYUCH",
+      "dynamic_qr_expires_at": 1791295370284
+    },
+    {
+      "trip_id": "TRIP-364678",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "driver_id": "DRV-01",
+      "driver_name": "SRINIVASAN R",
+      "route_id": "R-01",
+      "start_time": "2026-10-07T08:22:44.678Z",
+      "end_time": "2026-10-07T09:08:09.510Z",
+      "status": "COMPLETED",
+      "current_lat": 13.147337561323258,
+      "current_lng": 80.05626610722892,
+      "gps_accuracy": 124,
+      "last_gps_update": "2026-10-07T09:08:07.890Z",
+      "dynamic_qr_token": "BUSQR-BUS-01-TRIP-364678-0SELK9",
+      "dynamic_qr_expires_at": 1791361424678
+    },
+    {
+      "trip_id": "TRIP-044836",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "driver_id": "DRV-02",
+      "driver_name": "M. Selvam",
+      "route_id": "R-02",
+      "start_time": "2026-10-07T08:50:44.836Z",
+      "end_time": null,
+      "status": "ACTIVE",
+      "current_lat": null,
+      "current_lng": null,
+      "gps_accuracy": null,
+      "last_gps_update": null,
+      "dynamic_qr_token": "BUSQR-BUS-02-TRIP-044836-3R8CO1",
+      "dynamic_qr_expires_at": 1791363104836
+    },
+    {
+      "trip_id": "TRIP-615394",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "driver_id": "DRV-01",
+      "driver_name": "SRINIVASAN R",
+      "route_id": "R-01",
+      "start_time": "2026-10-07T09:16:55.394Z",
+      "end_time": "2026-10-07T09:17:14.811Z",
+      "status": "COMPLETED",
+      "current_lat": 13.147337561323258,
+      "current_lng": 80.05626610722892,
+      "gps_accuracy": 124,
+      "last_gps_update": "2026-10-07T09:17:10.954Z",
+      "dynamic_qr_token": "BUSQR-BUS-01-TRIP-615394-UOJMFF",
+      "dynamic_qr_expires_at": 1791364675394
+    }
+  ],
+  "studentStatuses": [
+    {
+      "student_id": "STU-100",
+      "student_name": "Student User",
+      "bus_id": "BUS-02",
+      "date": "2026-10-06",
+      "status": "BOARDED",
+      "updated_at": "2026-10-06T14:01:50.286Z",
+      "latitude": 13.1147,
+      "longitude": 80.1018,
+      "pickup_point_name": "avadi"
+    },
+    {
+      "student_id": "STU-205",
+      "student_name": "Mariyam nadhira",
+      "bus_id": "BUS-02",
+      "date": "2026-10-07",
+      "status": "BOARDED",
+      "updated_at": "2026-10-07T08:50:44.839Z",
+      "latitude": 13.1147,
+      "longitude": 80.1018,
+      "pickup_point_name": "avadi"
+    },
+    {
+      "student_id": "STU-206",
+      "student_name": "ashifa. J",
+      "bus_id": "BUS-02",
+      "date": "2026-10-07",
+      "status": "ABSENT",
+      "updated_at": "2026-10-07T08:50:58.738Z",
+      "latitude": 13.1288,
+      "longitude": 80.0945,
+      "pickup_point_name": "Avadi air force main gate"
+    },
+    {
+      "student_id": "STU-100",
+      "student_name": "Student User",
+      "bus_id": "BUS-02",
+      "date": "2026-10-07",
+      "status": "ABSENT",
+      "updated_at": "2026-10-07T08:56:27.608Z",
+      "latitude": 13.1147,
+      "longitude": 80.1018,
+      "pickup_point_name": "avadi"
+    }
+  ],
+  "attendance": [
+    {
+      "attendance_id": "ATT-044837",
+      "student_id": "STU-205",
+      "student_name": "Mariyam nadhira",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4102",
+      "route_id": "R-02",
+      "route_name": "Avadi to Campus",
+      "boarding_point": "avadi",
+      "driver_id": "DRV-02",
+      "trip_id": "TRIP-044836",
+      "date": "2026-10-07",
+      "timestamp": "2026-10-07T08:50:44.837Z",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "attendance_id": "ATT-310285",
+      "student_id": "STU-100",
+      "student_name": "Student User",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "route_id": "R-02",
+      "route_name": "Avadi to Campus",
+      "boarding_point": "avadi",
+      "driver_id": "DRV-01",
+      "trip_id": "TRIP-310284",
+      "date": "2026-10-06",
+      "timestamp": "2026-10-06T14:01:50.285Z",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "attendance_id": "ATT-211034",
+      "student_id": "STU-201",
+      "student_name": "Faiza",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "route_id": "R-02",
+      "route_name": "Avadi to Campus",
+      "boarding_point": "Avadi Market",
+      "driver_id": "DRV-02",
+      "trip_id": "TRIP-188398",
+      "date": "2026-09-25",
+      "timestamp": "2026-09-25T15:13:31.034Z",
+      "latitude": 13.1147,
+      "longitude": 80.1018,
+      "distance_meters": 18,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "attendance_id": "ATT-197272",
+      "student_id": "STU-100",
+      "student_name": "Student User",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "route_id": "R-02",
+      "route_name": "Avadi to Campus",
+      "boarding_point": "avadi hvf road",
+      "driver_id": "DRV-02",
+      "trip_id": "TRIP-188398",
+      "date": "2026-09-25",
+      "timestamp": "2026-09-25T15:13:17.272Z",
+      "latitude": 12.9255,
+      "longitude": 80.1012,
+      "distance_meters": 12,
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "complaints": [],
+  "breakdowns": [
+    {
+      "breakdown_id": "BD-663588",
+      "driver_id": "DRV-01",
+      "driver_name": "SRINIVASAN R",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "timestamp": "2026-10-07T09:17:43.588Z",
+      "latitude": 13.147337561323258,
+      "longitude": 80.05626610722892,
+      "description": "[MECHANICAL_FAILURE] cvb",
+      "status": "ACTIVE"
+    },
+    {
+      "breakdown_id": "BD-646003",
+      "driver_id": "DRV-01",
+      "driver_name": "SRINIVASAN R",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "route_id": "R-01",
+      "timestamp": "2026-10-07T09:17:25.933Z",
+      "latitude": 13.147337561323258,
+      "longitude": 80.05626610722892,
+      "description": "🚨 DRIVER EMERGENCY SOS: Bus TN12AV4729 requires immediate assistance. Driver: SRINIVASAN R (9840986527).",
+      "status": "ACTIVE"
+    },
+    {
+      "breakdown_id": "BD-894561",
+      "driver_id": "DRV-01",
+      "driver_name": "K. Murugan",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "route_id": "R-02",
+      "timestamp": "2026-10-06T13:21:33.645Z",
+      "latitude": null,
+      "longitude": null,
+      "description": "🚨 DRIVER EMERGENCY SOS: Bus TN 22 CZ 4729 requires immediate assistance. Driver: K. Murugan (+91 98401 23451).",
+      "status": "RESOLVED"
+    }
+  ],
+  "emergencies": [
+    {
+      "emergency_id": "EMG-646003",
+      "bus_id": "BUS-01",
+      "bus_number": "TN12AV4729",
+      "driver_id": "DRV-01",
+      "driver_name": "SRINIVASAN R",
+      "driver_phone": "9840986527",
+      "route_id": "R-01",
+      "route_name": "AVADI",
+      "latitude": 13.147337561323258,
+      "longitude": 80.05626610722892,
+      "timestamp": "2026-10-07T09:17:25.933Z",
+      "created_at": "2026-10-07T09:17:26.003Z",
+      "status": "ACTIVE",
+      "reason": "Driver pressed & held Emergency SOS button for 2 seconds."
+    },
+    {
+      "emergency_id": "EMG-894561",
+      "bus_id": "BUS-02",
+      "bus_number": "TN 22 CZ 4729",
+      "driver_id": "DRV-01",
+      "driver_name": "K. Murugan",
+      "driver_phone": "+91 98401 23451",
+      "route_id": "R-02",
+      "route_name": "Avadi to Campus",
+      "latitude": null,
+      "longitude": null,
+      "timestamp": "2026-10-06T13:21:33.645Z",
+      "created_at": "2026-10-06T13:21:34.561Z",
+      "status": "RESOLVED",
+      "reason": "Driver pressed & held Emergency SOS button for 2 seconds."
+    }
+  ],
+  "notifications": [
+    {
+      "notification_id": "NOTIF-1791364663588",
+      "title": "⚠️ URGENT: Bus TN12AV4729 Breakdown Alert",
+      "message": "Bus TN12AV4729 reported a breakdown. Transport department and relief arrangements are being dispatched.",
+      "type": "BREAKDOWN",
+      "target_role": "ALL",
+      "target_bus_id": "BUS-01",
+      "timestamp": "2026-10-07T09:17:43.588Z"
+    },
+    {
+      "notification_id": "NOTIF-EMG-1791364646003",
+      "title": "🚨 EMERGENCY: Bus TN12AV4729 needs immediate assistance!",
+      "message": "Bus TN12AV4729 activated SOS emergency broadcast. Driver: SRINIVASAN R (9840986527). Exact GPS: 13.1473, 80.0563.",
+      "type": "EMERGENCY",
+      "target_role": "ALL",
+      "target_bus_id": "BUS-01",
+      "timestamp": "2026-10-07T09:17:26.004Z",
+      "metadata": {
+        "emergency_id": "EMG-646003",
+        "bus_id": "BUS-01",
+        "bus_number": "TN12AV4729",
+        "driver_name": "SRINIVASAN R",
+        "driver_phone": "9840986527",
+        "latitude": 13.147337561323258,
+        "longitude": 80.05626610722892
+      }
+    },
+    {
+      "notification_id": "NOTIF-1791364634811",
+      "title": "Bus TN12AV4729 Trip Ended",
+      "message": "TN12AV4729 has concluded its trip. Driver: SRINIVASAN R.",
+      "type": "TRIP_END",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-01",
+      "timestamp": "2026-10-07T09:17:14.811Z"
+    },
+    {
+      "notification_id": "NOTIF-1791364615394",
+      "title": "Bus TN12AV4729 Started Trip",
+      "message": "TN12AV4729 on route AVADI has commenced its trip. Driver: SRINIVASAN R.",
+      "type": "TRIP_START",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-01",
+      "timestamp": "2026-10-07T09:16:55.394Z"
+    },
+    {
+      "notification_id": "NOTIF-1791364089510",
+      "title": "Bus TN12AV4729 Trip Ended",
+      "message": "TN12AV4729 has concluded its trip. Driver: SRINIVASAN R.",
+      "type": "TRIP_END",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-01",
+      "timestamp": "2026-10-07T09:08:09.510Z"
+    },
+    {
+      "notification_id": "NOTIF-1791363387609",
+      "title": "🔴 Student User is Absent",
+      "message": "Student User has marked as ABSENT. Driver can skip this stop on the route.",
+      "type": "STATUS_UPDATE",
+      "target_role": "DRIVER",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-07T08:56:27.609Z"
+    },
+    {
+      "notification_id": "NOTIF-1791363370381",
+      "title": "🟡 Student User is Waiting at Stop",
+      "message": "Student User has marked as WAITING at avadi. Visible on driver GPS map.",
+      "type": "STATUS_UPDATE",
+      "target_role": "DRIVER",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-07T08:56:10.381Z"
+    },
+    {
+      "notification_id": "NOTIF-1791363368282",
+      "title": "🔴 Student User is Absent",
+      "message": "Student User has marked as ABSENT. Driver can skip this stop on the route.",
+      "type": "STATUS_UPDATE",
+      "target_role": "DRIVER",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-07T08:56:08.282Z"
+    },
+    {
+      "notification_id": "NOTIF-1791363058739",
+      "title": "🔴 ashifa. J is Absent",
+      "message": "ashifa. J has marked as ABSENT. Driver can skip this stop on the route.",
+      "type": "STATUS_UPDATE",
+      "target_role": "DRIVER",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-07T08:50:58.739Z"
+    },
+    {
+      "notification_id": "NOTIF-1791363044839",
+      "title": "🟢 Mariyam nadhira is Boarded",
+      "message": "Mariyam nadhira has boarded bus BUS-02.",
+      "type": "STATUS_UPDATE",
+      "target_role": "DRIVER",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-07T08:50:44.839Z"
+    },
+    {
+      "notification_id": "NOTIF-1791363044836",
+      "title": "Bus TN 22 CZ 4102 Started Trip",
+      "message": "TN 22 CZ 4102 on route Avadi to Campus has commenced its trip. Driver: M. Selvam.",
+      "type": "TRIP_START",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-07T08:50:44.836Z"
+    },
+    {
+      "notification_id": "NOTIF-1791363024667",
+      "title": "🟡 Mariyam nadhira is Waiting at Stop",
+      "message": "Mariyam nadhira has marked as WAITING at avadi. Visible on driver GPS map.",
+      "type": "STATUS_UPDATE",
+      "target_role": "DRIVER",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-07T08:50:24.667Z"
+    },
+    {
+      "notification_id": "NOTIF-1791361364678",
+      "title": "Bus TN12AV4729 Started Trip",
+      "message": "TN12AV4729 on route AVADI has commenced its trip. Driver: SRINIVASAN R.",
+      "type": "TRIP_START",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-01",
+      "timestamp": "2026-10-07T08:22:44.678Z"
+    },
+    {
+      "notification_id": "NOTIF-1791295310286",
+      "title": "🟢 Student User is Boarded",
+      "message": "Student User has boarded bus BUS-02.",
+      "type": "STATUS_UPDATE",
+      "target_role": "DRIVER",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-06T14:01:50.286Z"
+    },
+    {
+      "notification_id": "NOTIF-1791295310284",
+      "title": "Bus TN 22 CZ 4729 Started Trip",
+      "message": "TN 22 CZ 4729 on route Avadi to Campus has commenced its trip. Driver: K. Murugan.",
+      "type": "TRIP_START",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-06T14:01:50.284Z"
+    },
+    {
+      "notification_id": "NOTIF-1791295290719",
+      "title": "🟡 Student User is Waiting at Stop",
+      "message": "Student User has marked as WAITING at avadi. Visible on driver GPS map.",
+      "type": "STATUS_UPDATE",
+      "target_role": "DRIVER",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-06T14:01:30.719Z"
+    },
+    {
+      "notification_id": "NOTIF-RES-1791293007301",
+      "title": "✅ Emergency Resolved: Bus TN 22 CZ 4729",
+      "message": "The emergency SOS alert for Bus TN 22 CZ 4729 has been resolved by administration.",
+      "type": "ANNOUNCEMENT",
+      "target_role": "ALL",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-06T13:23:27.301Z"
+    },
+    {
+      "notification_id": "NOTIF-EMG-1791292894561",
+      "title": "🚨 EMERGENCY: Bus TN 22 CZ 4729 needs immediate assistance!",
+      "message": "Bus TN 22 CZ 4729 activated SOS emergency broadcast. Driver: K. Murugan (+91 98401 23451). Exact GPS: N/A, N/A.",
+      "type": "EMERGENCY",
+      "target_role": "ALL",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-10-06T13:21:34.561Z",
+      "metadata": {
+        "emergency_id": "EMG-894561",
+        "bus_id": "BUS-02",
+        "bus_number": "TN 22 CZ 4729",
+        "driver_name": "K. Murugan",
+        "driver_phone": "+91 98401 23451",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "notification_id": "NOTIF-1790511908093",
+      "title": "Bus TN 22 CZ 4729 Trip Ended",
+      "message": "TN 22 CZ 4729 has concluded its trip. Driver: K. Murugan.",
+      "type": "TRIP_END",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-09-27T12:25:08.093Z"
+    },
+    {
+      "notification_id": "NOTIF-1790511817452",
+      "title": "Bus TN 22 CZ 4729 Started Trip",
+      "message": "TN 22 CZ 4729 on route Avadi to Campus has commenced its trip. Driver: K. Murugan.",
+      "type": "TRIP_START",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-09-27T12:23:37.452Z"
+    },
+    {
+      "notification_id": "NOTIF-1790349188398",
+      "title": "Bus TN 22 CZ 4729 Started Trip",
+      "message": "TN 22 CZ 4729 on route Avadi to Campus has commenced its trip. Driver: M. Selvam.",
+      "type": "TRIP_START",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-02",
+      "timestamp": "2026-09-25T15:13:08.398Z"
+    },
+    {
+      "notification_id": "NOTIF-1790349084127",
+      "title": "Bus TN 22 CZ 4763 Started Trip",
+      "message": "TN 22 CZ 4763 on route Tambaram to Campus has commenced its trip. Driver: K. Murugan.",
+      "type": "TRIP_START",
+      "target_role": "STUDENT",
+      "target_bus_id": "BUS-01",
+      "timestamp": "2026-09-25T15:11:24.127Z"
+    }
+  ],
+  "passwords": {
+    "110124149040": "campus123",
+    "110124149012": "student@123",
+    "STU-7392": "campus123",
+    "STU-2476": "campus123",
+    "STU-6134": "campus123",
+    "STU-0367": "campus123",
+    "DRV-01": "campus123"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "asdf before final Smart Campus Transport Intelligence System",
+  "description": "Production-ready smart college campus transport intelligence system with live driver mobile GPS tracking, QR authentication, student status, dynamic attendance QR, and real-time fleet monitoring.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "entities": {
+    "Student": {
+      "title": "Student",
+      "description": "Student transport profile and assigned bus",
+      "type": "object",
+      "properties": {
+        "student_id": { "type": "string" },
+        "full_name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "department": { "type": "string" },
+        "year": { "type": "string" },
+        "bus_id": { "type": "string" },
+        "bus_number": { "type": "string" },
+        "route_id": { "type": "string" },
+        "boarding_point": { "type": "string" },
+        "account_status": { "type": "string", "enum": ["ACTIVE", "INACTIVE"] },
+        "qr_identity": { "type": "string" },
+        "role": { "type": "string", "enum": ["STUDENT"] }
+      },
+      "required": ["student_id", "full_name", "role", "account_status"]
+    },
+    "Driver": {
+      "title": "Driver",
+      "description": "Bus driver profile and assigned vehicle",
+      "type": "object",
+      "properties": {
+        "driver_id": { "type": "string" },
+        "driver_name": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string" },
+        "assigned_bus_id": { "type": "string" },
+        "bus_number": { "type": "string" },
+        "route_id": { "type": "string" },
+        "account_status": { "type": "string", "enum": ["ACTIVE", "INACTIVE"] },
+        "qr_identity": { "type": "string" },
+        "role": { "type": "string", "enum": ["DRIVER"] }
+      },
+      "required": ["driver_id", "driver_name", "role", "account_status"]
+    },
+    "Admin": {
+      "title": "Admin",
+      "description": "College transport administrator",
+      "type": "object",
+      "properties": {
+        "admin_id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "role": { "type": "string", "enum": ["ADMIN"] },
+        "account_status": { "type": "string", "enum": ["ACTIVE", "INACTIVE"] },
+        "qr_identity": { "type": "string" },
+        "permissions": { "type": "array" }
+      },
+      "required": ["admin_id", "name", "role", "account_status"]
+    },
+    "Bus": {
+      "title": "Bus",
+      "description": "College bus vehicle details and live status",
+      "type": "object",
+      "properties": {
+        "bus_id": { "type": "string" },
+        "bus_number": { "type": "string" },
+        "route_id": { "type": "string" },
+        "route_name": { "type": "string" },
+        "destination": { "type": "string" },
+        "assigned_driver_id": { "type": "string" },
+        "assigned_driver_name": { "type": "string" },
+        "bus_status": { "type": "string", "enum": ["IDLE", "ON_TRIP", "BREAKDOWN", "MAINTENANCE"] },
+        "location_source": { "type": "string" },
+        "current_lat": { "type": "number" },
+        "current_lng": { "type": "number" },
+        "gps_accuracy": { "type": "number" },
+        "last_gps_update": { "type": "string" }
+      },
+      "required": ["bus_id", "bus_number", "bus_status"]
+    },
+    "Route": {
+      "title": "Route",
+      "description": "Transit route schedule and boarding points",
+      "type": "object",
+      "properties": {
+        "route_id": { "type": "string" },
+        "route_name": { "type": "string" },
+        "destination": { "type": "string" },
+        "driver_name": { "type": "string" },
+        "driver_phone": { "type": "string" },
+        "boarding_points": { "type": "array" }
+      },
+      "required": ["route_id", "route_name", "destination"]
+    },
+    "Attendance": {
+      "title": "Attendance",
+      "description": "QR scan verified boarding attendance record",
+      "type": "object",
+      "properties": {
+        "attendance_id": { "type": "string" },
+        "student_id": { "type": "string" },
+        "student_name": { "type": "string" },
+        "bus_id": { "type": "string" },
+        "bus_number": { "type": "string" },
+        "route_id": { "type": "string" },
+        "route_name": { "type": "string" },
+        "boarding_point": { "type": "string" },
+        "trip_id": { "type": "string" },
+        "date": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "distance_meters": { "type": "number" },
+        "verification_status": { "type": "string" }
+      },
+      "required": ["attendance_id", "student_id", "bus_id", "timestamp"]
+    },
+    "Trip": {
+      "title": "Trip",
+      "description": "Active or historical bus trip session",
+      "type": "object",
+      "properties": {
+        "trip_id": { "type": "string" },
+        "bus_id": { "type": "string" },
+        "bus_number": { "type": "string" },
+        "route_id": { "type": "string" },
+        "driver_id": { "type": "string" },
+        "status": { "type": "string", "enum": ["ACTIVE", "COMPLETED", "BREAKDOWN"] },
+        "start_time": { "type": "string" },
+        "end_time": { "type": "string" }
+      },
+      "required": ["trip_id", "bus_id", "driver_id", "status", "start_time"]
+    },
+    "Complaint": {
+      "title": "Complaint",
+      "description": "Passenger complaint or issue report",
+      "type": "object",
+      "properties": {
+        "complaint_id": { "type": "string" },
+        "student_id": { "type": "string" },
+        "student_name": { "type": "string" },
+        "category": { "type": "string" },
+        "description": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "status": { "type": "string", "enum": ["OPEN", "IN_PROGRESS", "RESOLVED"] }
+      },
+      "required": ["complaint_id", "student_id", "category", "description", "status"]
+    },
+    "StudentStatus": {
+      "title": "StudentStatus",
+      "description": "Daily student transport status and live GPS coordinates",
+      "type": "object",
+      "properties": {
+        "student_id": { "type": "string" },
+        "student_name": { "type": "string" },
+        "bus_id": { "type": "string" },
+        "date": { "type": "string" },
+        "status": { "type": "string", "enum": ["WAITING", "NOT_COMING", "BOARDED", "NOT_SET", "PLEASE_WAIT", "NOT_RETURNING"] },
+        "updated_at": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" }
+      },
+      "required": ["student_id", "date", "status", "updated_at"]
+    },
+    "Emergency": {
+      "title": "Emergency",
+      "description": "Driver emergency SOS alerts with vehicle GPS coordinates",
+      "type": "object",
+      "properties": {
+        "emergency_id": { "type": "string" },
+        "bus_id": { "type": "string" },
+        "bus_number": { "type": "string" },
+        "driver_id": { "type": "string" },
+        "driver_name": { "type": "string" },
+        "driver_phone": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "timestamp": { "type": "string" },
+        "status": { "type": "string", "enum": ["ACTIVE", "RESOLVED", "DISMISSED"] },
+        "reason": { "type": "string" }
+      },
+      "required": ["emergency_id", "bus_id", "driver_id", "timestamp", "status"]
+    }
+  },
+  "firestore": {
+    "/students/{studentId}": {
+      "schema": "Student",
+      "description": "Student transport records"
+    },
+    "/drivers/{driverId}": {
+      "schema": "Driver",
+      "description": "Driver credentials and bus assignments"
+    },
+    "/admins/{adminId}": {
+      "schema": "Admin",
+      "description": "Administrator profiles"
+    },
+    "/buses/{busId}": {
+      "schema": "Bus",
+      "description": "Campus bus fleet and real-time GPS locations"
+    },
+    "/routes/{routeId}": {
+      "schema": "Route",
+      "description": "Campus routes and boarding stops"
+    },
+    "/attendance/{attendanceId}": {
+      "schema": "Attendance",
+      "description": "QR verified boarding records"
+    },
+    "/trips/{tripId}": {
+      "schema": "Trip",
+      "description": "Bus trip tracking sessions"
+    },
+    "/complaints/{complaintId}": {
+      "schema": "Complaint",
+      "description": "Student feedback and complaints"
+    },
+    "/studentStatuses/{statusId}": {
+      "schema": "StudentStatus",
+      "description": "Student daily boarding status and live GPS"
+    },
+    "/emergencies/{emergencyId}": {
+      "schema": "Emergency",
+      "description": "Driver SOS emergency incident events"
+    }
+  }
+}
